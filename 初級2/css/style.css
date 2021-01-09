@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+  font-family: Medium;
+  width: 1440px;
+}
+a{
+  text-decoration: none;
+}
+header{
+  background-color: #58A9EF;
+  color: #FFFFFF;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 183px;
+  padding-left: 183px;
+}
+header h1{
+  font-size: 28px;
+  padding: 26px 0 23px 24px;
+  
+}
+.main-nav{
+  display: flex;
+  padding-top: 31px;
+  list-style: none;
+}
+.main-nav li{
+  padding-right: 20px;
+}
+.main-nav a{
+  color: #FFFFFF;
+  font-size: 20px;
+}
