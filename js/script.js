@@ -44,10 +44,6 @@ var swiper = new Swiper('.swiper-container', {
     },
   },
   spaceBetween:40,
-  navigation: {
-  nextEl: '.swiper-button-next',
-  prevEl: '.swiper-button-prev',
-  },
   autoplay: {
     delay: 5000,
   },
@@ -89,6 +85,13 @@ $(function(){
     $(".header__nav").animate({"margin-top":"+=" + dis + "px"},200);
 
     dis*=-1;
+  });
 
+  $(".header__nav").click(function(){
+    if(dis==-450){
+      $(".header__nav").animate({"margin-top":"+=" + dis + "px"},200);
+
+      dis*=-1;
+    }
   });
 });
