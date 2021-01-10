@@ -1,0 +1,38 @@
+// ベース
+@import "./base/_reset";
+@import "./base/_base";
+
+// レイアウト(max-width1220ox)
+@import "./mixin/layout/_layout";
+
+// 共通のボタン
+@import "./mixin/button/_button";
+//共通のタイトル
+@import "./mixin/ttl/_ttl";
+
+// ヘッダー
+@import "./module/header/_header";
+
+// コーディングの手間を…
+@import "./module/explain/_explain";
+
+// 3つの特徴
+@import "./module/features/_features";
+
+// 価格
+@import "./module/price/_price";
+
+// FAQ
+@import "./module/qa/qa";
+
+// ブログ
+@import "./module/blog/blog";
+
+// 制作実績
+@import "./module/works/works";
+
+// お問い合わせ
+@import "./module/contact/contact";
+
+// フッター
+@import "./module/footer/footer";
