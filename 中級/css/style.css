@@ -213,6 +213,7 @@ img {
   }
   .header__logo img {
     width: 35px;
+    height: auto;
   }
   .header__logo h1 {
     font-size: 20px;
@@ -734,6 +735,10 @@ img {
   display: flex;
 }
 
+.blog__wrapper a {
+  color: #333333;
+}
+
 .blog__box {
   background-color: #FFFFFF;
   margin-right: 30px;
@@ -877,6 +882,7 @@ img {
   padding-left: 18px;
   display: flex;
   flex-direction: column;
+  color: #333333;
 }
 
 .works__box-info h2 {
